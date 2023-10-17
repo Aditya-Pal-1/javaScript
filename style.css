@@ -1,63 +1,82 @@
 *{
     margin: 0%;
     padding: 0%;
+    background-color:black;
+    color: white;
 }
-body{
-    height: 100%;
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+}
+.adi{
+    display: flex;
+    align-items: start;
+}
+i{
+    margin: 0 0.8rem;
+}
+.profileinfo img{
+    height: 4rem;
+    border-radius: 50%;
+}
+.profileinfo{
+    display: flex;
+    padding: 0.8rem;
+}
+.profileinfo .profile{
+    display: flex;
     width: 100%;
+    justify-content: space-evenly;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 3rem; */
 }
-.main{
-    display: flex;
-    display: grid;
-    grid-template-columns:repeat(2,1fr);
-    align-items: center;
-    justify-content: center;
-    /* height: 100vh; */
-    /* width: 100vw;  */
-}
-.shopperLogin{
-    background-color: #d3d4f5;
-    height: 100vh;
-    /* width: 100vw; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.shopperLogin img{
-    height: 30rem;
+.profile .stats{
+    margin: 1rem;
+    text-align: center;
 }
 
-.sellarLogin{
-    background-color: rgb(58, 58, 168);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.bio{
+    padding: 0.8rem;
 }
-.sellarLogin img{
-    height: 25rem;
-    width: 30rem;
+.bio h4{
+    margin: 0.2rem;
+    color: gray;
 }
-#shoppersLogInButton{
-    width: 15rem;
-    height: 4rem;
-    border: none;
-    outline: none;
-    border-radius: 15px;
-    color: white;
-    background-color: blue;
-    font-size: 1.3rem;
-    cursor: pointer;
+
+.highlights div img{
+    height: 5rem;
+    width: 4rem;
+    padding: 0.8rem;
+    border-radius: 50%;
+    border: 2px dotted wheat;
 }
-#sellerLogInButton{
-    margin-top: 5rem;
-    width: 15rem;
-    height: 4rem;
-    border: none;
-    outline: none;
-    border-radius: 15px;
-    color: white;
-    background-color: green;
-    font-size: 1.3rem;
-    cursor: pointer;
+.highlights div{
+    margin: 0.5rem;
+}
+.highlights div h4{
+    text-align: center;
+}
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.posts img{
+    /* height: 10rem;
+    width: 7rem;
+    margin: 0.3rem; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 1rem;
+    grid-gap: 0.2rem;
+    /* display: flex;
+    flex-wrap: wrap;
+    padding: 0.8rem; */
 }
