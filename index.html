@@ -4,20 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capstone</title>
+    <title>Word Counter</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="counter.js"></script>
 </head>
-<body>
-    <div class="main">
-        <div class="shopperLogin">
-            <img src="BAG.png" alt="">
-            <a href="shopeersLogin.html"><button id="shoppersLogInButton">Shoppers Login</button></a>
-        </div>
-        <div class="sellarLogin">
-            <img src="SHOP.png" alt="">
-            <a href="sellerLogin.html"><button id="sellerLogInButton">Sellers Login</button></a>
-        </div>
-    </div>
-    
+<body class="p-6 mt-4 flex flex-col items-center text-center bg-sky-100">
+    <h1 class="font-bold text-2xl">Word Counter</h1>
+    <textarea onkeyup="keyHasBeenPressed()"  class="border border-black rounde-lg ml-60 mt-4 mb-4 w-9/12 p-2" name="" id="" cols="30" rows="10"></textarea>
+    <p>Total no of Words:<span class="wordCount">0</span></p>
+    <p>Total no of Characters:<span class="charcount">0</span></p>
+    <p>Total no of words allowed: 200 || Total words Left : <span class="charLimitSpan">200</span></p>
+    <button class="border border-black w-24 m-2 clearbutton">clear</button>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <header>
+        <h2>Word Counter</h2>
+    </header> -->
+    <!-- <div id="msg"></div>
+    <div>
+            <textarea name="" id="input" cols="30" rows="10"></textarea>
+            <button id="Word" onclick="count_w()">No Of Words</button>
+            <button id="chars" onclick="count_c()">No Of Characters</button>
+            <button type="submit">sub</button>
+    </div> -->
 </body>
 </html>
