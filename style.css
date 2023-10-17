@@ -1,63 +1,36 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
 body{
-    height: 100%;
-    width: 100%;
+    margin-top: 8rem;
 }
 .main{
     display: flex;
-    display: grid;
-    grid-template-columns:repeat(2,1fr);
-    align-items: center;
     justify-content: center;
-    /* height: 100vh; */
-    /* width: 100vw;  */
+    margin-top: 8rem;
 }
-.shopperLogin{
-    background-color: #d3d4f5;
-    height: 100vh;
-    /* width: 100vw; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.main h1{
+    margin-top: 7rem;
 }
-.shopperLogin img{
-    height: 30rem;
+#right{
+    margin: 1rem;
+}
+#form button{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    border: none;
+    background-color: burlywood;
+}
+#left{
+    margin: 1rem;
 }
 
-.sellarLogin{
-    background-color: rgb(58, 58, 168);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#p img{
+    height: 2rem;
 }
-.sellarLogin img{
-    height: 25rem;
-    width: 30rem;
-}
-#shoppersLogInButton{
-    width: 15rem;
-    height: 4rem;
-    border: none;
-    outline: none;
-    border-radius: 15px;
-    color: white;
-    background-color: blue;
-    font-size: 1.3rem;
-    cursor: pointer;
-}
-#sellerLogInButton{
-    margin-top: 5rem;
-    width: 15rem;
-    height: 4rem;
-    border: none;
-    outline: none;
-    border-radius: 15px;
-    color: white;
-    background-color: green;
-    font-size: 1.3rem;
-    cursor: pointer;
+#edit{
+    height:2rem;
+} 
+
+.del{
+    height: 1rem;
 }
